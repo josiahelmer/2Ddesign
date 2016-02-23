@@ -13,7 +13,7 @@ public class TwoDController
 	{
 		myBasketBall = new BasketBall[3][3];
 		setupArray();
-		baseFrame = new TwoDFrame(this);
+
 	}
 	
 	public void start()
@@ -23,6 +23,9 @@ public class TwoDController
 
 	private void setupArray()
 	{
-
+		for(int row = 0; row < myBackpacks,length; row++)
+		{
+			
+		}
 	}
 }
