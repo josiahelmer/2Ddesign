@@ -23,7 +23,7 @@ public class TwoDController
 
 	private void setupArray()
 	{
-		for(int row = 0; row < myBackpacks,length; row++)
+		for(int row = 0; row < myBasketBall.length; row++)
 		{
 			
 		}
