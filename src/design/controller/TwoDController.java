@@ -25,7 +25,18 @@ public class TwoDController
 	{
 		for(int row = 0; row < myBasketBall.length; row++)
 		{
-			
+			for(int col = 0; col < myBasketBall[0].length; col++)
+			{
+				myBasketBall[row][col] = new BasketBall();
+				if(col % 2 == 0)
+				{
+					myBasketBall[row][col].setNumberOfLines(col + 5);
+				}
+				else
+				{
+					myBasketBall[row][col].setBasketBallColor(Color.ORANGE);
+				}
+			}
 		}
 	}
 }

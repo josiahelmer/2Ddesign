@@ -17,6 +17,18 @@ public class BasketBall
 	{
 		this.ballColor = ballColor;
 	}
+	public void setBasketBallColor(Color orange)
+	{
+
+		
+	}
+	public void setNumberOfLines(int i)
+	{
+
+		
+	}
 }
+
+
 
 
